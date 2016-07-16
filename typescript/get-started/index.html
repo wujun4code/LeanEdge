@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="这个程序员是逗比">
+        
         <meta name="author" content="https://github.com/wujun4code">
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>LeanCloud Edge</title>
+	<title>SDK 安装与初始化 - LeanCloud Edge</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./css/base.css" rel="stylesheet">
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -51,7 +51,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">LeanCloud Edge</a>
+            <a class="navbar-brand" href="../..">LeanCloud Edge</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -60,25 +60,25 @@
             <ul class="nav navbar-nav">
             
             
-                <li class="active">
-                    <a href=".">首页</a>
+                <li >
+                    <a href="../..">首页</a>
                 </li>
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">TypeScript <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
-<li >
-    <a href="typescript/get-started/">SDK 安装与初始化</a>
+<li class="active">
+    <a href="./">SDK 安装与初始化</a>
 </li>
 
                     
                         
 <li >
-    <a href="typescript/api/">SDK 使用指南</a>
+    <a href="../api/">SDK 使用指南</a>
 </li>
 
                     
@@ -95,13 +95,13 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                <li class="disabled">
-                    <a rel="next" >
+                <li >
+                    <a rel="next" href="../..">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="typescript/get-started/">
+                    <a rel="prev" href="../api/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -124,31 +124,17 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#leancloud-edge">LeanCloud Edge</a></li>
+        <li class="main active"><a href="#_1">安装</a></li>
         
-            <li><a href="#leancloud-typescript-sdk">LeanCloud TypeScript SDK</a></li>
-        
-            <li><a href="#leancloud-net-core-sdk">LeanCloud .NET Core SDK</a></li>
-        
-            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#nodejs">Node.js</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="leancloud-edge">LeanCloud Edge</h1>
-<p>这里存放一些「非主流」的关于 LeanCloud 技术以及一些另类的用法。主要涉及的是我个人的偏好，比如 TypeScript 以及 .NET 相关的 LeanCloud SDK 的用法以及文档。</p>
-<h2 id="leancloud-typescript-sdk"><a href="typescript/get-started/">LeanCloud TypeScript SDK</a></h2>
-<p>之前在官网的 <a href="https://leancloud.cn/docs/leanstorage_guide-js.html">JavaScript 数据存储开发指南</a> 上架了一阵子的 TypeScript SDK 的示例代码和相关文档，但是经过「团队讨论」，最后还是下架了。我个人表示遗憾，那没办法我打算自己维护 TypeScript SDK 的文档，另外，我个人比较喜欢强类型语言，我对 TypeScript 的好感完全来源于 CSharp，但是当我用了一段时间之后，发现 TypeScript 还是很适合作为客户端的开发语言。详细请查看 <a href="">LeanCloud TypeScript SDK</a></p>
-<p>另外，我个人使用 ionic2 框架开发了几款应用，对 Angular2 以及 Cordova 框架十分喜爱。</p>
-<h2 id="leancloud-net-core-sdk">LeanCloud .NET Core SDK</h2>
-<p>感叹于 Parse 开源了 SDK 的源代码实在是写的太好了，我自己也没实力单独写一个能与之媲美的版本，因此在 .NET Core 1.0 发布之后，我用 .NET Core 编译了一下，这样就可以在 ASP.NET Core 里面直接使用 LeanCloud 作为后端存储，开发网站以及服务端的 API（ASP.NET Web Api 大法好）。</p>
-<h2 id="faq">FAQ</h2>
-<p>Q：这些代码都有什么版权限制么？</p>
-<p>A：除了 .NET 相关的代码是直接引用 <a href="https://github.com/ParsePlatform/Parse-SDK-dotNET">Parse-SDK-dotNET</a> 作为个人技术研究用，其他版权最终归属 LeanCloud 官方。</p>
-<p>Q： 为什么这些技术分享不放在官网？</p>
-<p>A： 我努力过，但是团队内部还是更偏向于服务主流的开发趋势，比如热火朝天的 Swift，比如 JS 的新标准之类的。但是作为一个文档工程师（你才是程序员！你全家都是程序员！）我也无能为力，但是我还是很执着于影响身边的人去学习或者至少接触一下微软技术圈的东西，这是我能做的一点点小事了。</p></div>
+<h1 id="_1">安装</h1>
+<h2 id="nodejs">Node.js</h2></div>
         </div>
 
         <footer class="col-md-12">
@@ -159,12 +145,12 @@
             <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">
