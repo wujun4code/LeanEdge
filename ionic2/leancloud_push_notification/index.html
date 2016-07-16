@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>SDK 使用指南 - LeanCloud Edge</title>
+	<title>使用 LeanCloud 推送 - LeanCloud Edge</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -66,19 +66,19 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">TypeScript <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../get-started/">SDK 安装与初始化</a>
+    <a href="../../typescript/get-started/">SDK 安装与初始化</a>
 </li>
 
                     
                         
-<li class="active">
-    <a href="./">SDK 使用指南</a>
+<li >
+    <a href="../../typescript/api/">SDK 使用指南</a>
 </li>
 
                     
@@ -87,13 +87,13 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ionic2 <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
-<li >
-    <a href="../../ionic2/leancloud_push_notification/">使用 LeanCloud 推送</a>
+<li class="active">
+    <a href="./">使用 LeanCloud 推送</a>
 </li>
 
                     
@@ -132,12 +132,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../get-started/">
+                    <a rel="next" href="../../typescript/api/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../../ionic2/leancloud_push_notification/">
+                    <a rel="prev" href="../../dotnet/asp_net_core/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -160,30 +160,11 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#typescript-sdk">TypeScript SDK 使用指南</a></li>
-        
-            <li><a href="#-avobject">对象 - AV.Object</a></li>
-        
-    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="typescript-sdk">TypeScript SDK 使用指南</h1>
-<h2 id="-avobject">对象 - AV.Object</h2>
-<h3 id="_1">保存对象</h3>
-<pre><code class="ts">let todoFolder: AV.Object = new AV.Object('TodoFolder');// 新建对象
-todoFolder.set('name', '工作');// 设置名称
-todoFolder.set('priority', 1);// 设置优先级
-todoFolder.save&lt;AV.Object&gt;().then(data =&gt; 
-    {
-        let savedTodoFolder: AV.Object = data;
-    }, (error) =&gt; {
-        if (error) throw error;
-    });
-</code></pre>
-
-<h3 id="_2">更新对象</h3></div>
+<p>等待填坑ing</p></div>
         </div>
 
         <footer class="col-md-12">
